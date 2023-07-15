@@ -1,0 +1,14 @@
+.bookText {
+    color: red;
+    font-size: 1.3vw;
+    text-align: left;     
+    border: 20px solid black;
+ }
+ 
+ .bookHeading {
+    color: blue;
+    text-align: left;
+ }
+ .bookCenter{
+    text-align: left;  
+ }
