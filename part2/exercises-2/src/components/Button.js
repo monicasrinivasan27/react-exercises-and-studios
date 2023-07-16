@@ -3,10 +3,14 @@ import './styles.css';
 function Button() {
 
    return ( 
-         <button>
-            Learn More
+      <button onClick={onLearnMore}>
+         Learn More
          </button>
    );
+}
+
+function onLearnMore(){
+   window.alert("Splash Splash Water here!");
 }
 
 export default Button;
